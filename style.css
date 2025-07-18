@@ -40,3 +40,13 @@ input, button {
     font-size: 18px;
   }
 }
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
